@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mdc-form-field>label {
+    margin-bottom: 0 !important;
+    margin-right: 10px !important;
+    padding-left: 0 !important;
+}
+
+.mat-mdc-radio-button~.mat-mdc-radio-button {
+    margin-left: 16px !important;
+
+}
